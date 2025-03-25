@@ -26,7 +26,7 @@ jobs:
           file: gradle.properties
           all: true
 
-      - name: Gradle chmod Set
+      - name: Gradle chmod Set, for file exec
         run: chmod +x ./gradlew
 
       - name: Build with Gradle
